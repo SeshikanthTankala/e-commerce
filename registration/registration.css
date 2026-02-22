@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    height: 100vh;
+    display: flex;
+}
+form{
+    width: 35%;
+    height: 80Vh;
+    margin: auto;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-weight: bold;
+}
+form input{
+    font-size: 1.5vw;
+    background-color: transparent;
+    padding: 0.25vw;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+#register_btn{
+    width: 80%;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+#error_mail,#error_password{
+    color: red;
+    padding: 0.2vw;
+}

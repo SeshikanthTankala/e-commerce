@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <script src="registration.js" defer></script>
+    <title>Registration</title>
+</head>
+<body>
+    <form id="form_container" action="">
+        <h1>Create Account</h1>
+        <p>Please Fill your details info</p>
+        <div>
+            <label for="name">Full Name</label>
+            <input id="name" class="user_inputs" type="text" placeholder="Set Username">
+        </div>
+
+        <div>
+            <label for="email">Email Address</label>
+            <input id="email" class="user_inputs" type="email" placeholder="Enter Email">
+            <p id="error_mail"></p>
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input id="password" class="user_inputs" type="text" placeholder="Set Password">
+            <p id="error_password"></p>
+        </div>
+
+        <div>
+            <label for="mobile">Mobile Number</label>
+            <input id="mobile" class="user_inputs" type="tel" placeholder="Enter Mobile">
+        </div>
+
+        <input id="register_btn" type="submit" value="Register">
+        <p>Already had Account? - <a href="../login/Login.html">sign in/Login</a></p>
+    </form>
+</body>
+</html>
